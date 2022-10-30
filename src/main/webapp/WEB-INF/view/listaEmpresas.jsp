@@ -18,7 +18,7 @@
 			<p>Empresa ${ empresa } cadastrada com sucesso!</p>
 		</c:if>
 	
-		<a href="/gerenciador/formNovaEmpresa.jsp">Nova Empresa</a>
+		<a href="${linkEntrada}?acao=NovaEmpresaForm">Nova Empresa</a>
 		
 		<p>Lista de empresas:</p>
 	
