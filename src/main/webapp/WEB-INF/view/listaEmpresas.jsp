@@ -14,6 +14,10 @@
 <body>
 	<ul>
 	
+		<c:import url="login-parcial.jsp" />
+	
+		<p>Usuário Logado: ${usuarioLogado.login}</p>
+	
 		<c:if test="${not empty empresa}">
 			<p>Empresa ${ empresa } cadastrada com sucesso!</p>
 		</c:if>

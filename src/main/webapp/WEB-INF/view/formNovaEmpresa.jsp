@@ -8,6 +8,8 @@
 </head>
 <body>
 
+	<c:import url="login-parcial.jsp" />
+
 	<form action="${linkServletNovaEmpresa}" method="post">
 		<label for="nomeEmpresa">
 			Nome:
