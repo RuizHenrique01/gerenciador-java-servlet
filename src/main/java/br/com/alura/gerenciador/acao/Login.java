@@ -23,7 +23,6 @@ public class Login implements Acao {
 		Usuario usuario = banco.existeUsuario(login, senha);
 		
 		if(usuario != null) {
-			System.out.println("Login: " + login + " - " + "Senha: " + senha);
 			HttpSession sessao = request.getSession();
 			sessao.setAttribute("usuarioLogado", usuario);
 			return "redirect:entrada?acao=ListaEmpresas";			
